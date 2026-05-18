@@ -31,9 +31,8 @@ class PlaylistVector {
         friend ostream& operator<<(ostream& out, const PlaylistVector& list);
 
     private:
-        unique_ptr<string[]> songs;
-        int size;
-        int capacity;
+        // Declare a Unique_ptr for the list
+        // Declare variables for the size and capacity
 
         void resize();
 };
